@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.banner{
+    margin-top: -500px;
+    color: darkred;
+    margin-bottom: 420px;
+}
+.fa-facebook{
+    margin-left: 42.5%;
+}
+.fa{
+    margin-right: 30px;
+    font-size: xx-large;
+}
+.anhthe{
+    height: 80%;
+    width: 100%;
+}
+p{
+    padding-top: 50px;
+}
+.kinhnghiem{
+    padding: 20px 0px;
+    background-color: darkgray;
+}
+i{
+    font-size: xx-large;
+}
+input{
+    width: 90%;
+}
+.button{
+    width: 100px;
+    margin-left: 30px;
+    display: block;
+    margin: 0 auto;
+    background-color: darkgrey;
+}
+.button:hover{
+    color: darkkhaki;
+}
