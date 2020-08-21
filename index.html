@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -16,9 +19,22 @@
 
 </head>
 <body>
-  <img src="stars.jpg" alt="back">  
+  <img src="tong-hop-cac-mau-background-dep-nhat-10070-13.jpg" class="nen" alt="back">  
   <div class="banner">
-      <h1 style="text-align: center;">I'm Huyen Trang</h1><br>
+      <div class="chuchay">
+          <h3>I'm <span class="gochu">Huyen Trang</span></h3>
+      </div>
+      
+      <script>
+        var typed = new Typed('.gochu', {
+  // Waits 1000ms after typing "First"
+  strings: ['pass test.', 'given to high score.'],
+  typeSpeed:30,
+  backSpeed:30,
+  loop:true,
+});
+      </script>
+      <br><br>
       <i class="fa fa-facebook" style="font-size: 30px;"></i>
       <i class="fa fa-twitter" style="font-size: 30px;"></i>
       <i class="fa fa-google-plus" style="font-size: 30px;"></i>

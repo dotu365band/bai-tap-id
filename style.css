@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
 img{
     width: 100%;
 }
 .banner{
     margin-top: -500px;
     color: darkred;
-    margin-bottom: 420px;
+    margin-bottom: 450px;
 }
 .fa-facebook{
     margin-left: 42.5%;
@@ -27,6 +28,7 @@ p{
 .kinhnghiem{
     padding: 20px 0px;
     background-color: darkgray;
+    margin-top: -100px;
 }
 i{
     font-size: xx-large;
@@ -43,4 +45,17 @@ input{
 }
 .button:hover{
     color: darkkhaki;
+}
+.chuchay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: firebrick;
+    font-size: 5em;
+    font-weight: 600;;
+}
+.hobby img{
+    width: 80%;
+    height: 150px;
 }
